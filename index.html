@@ -1,159 +1,341 @@
-<!-- ========== RESUME CONTENT ========== -->
-<h2>Sachin Reddy</h2>
-<div class="title">Computer Science Engineering Student (IoT, Cybersecurity & Blockchain)</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sachin Reddy Resume</title>
 
-<div class="contact-row">
-  <span><i class="fas fa-envelope"></i> reddysachin532@gmail.com</span>
-  <span><i class="fas fa-phone-alt"></i> +91 7760706295</span>
-  <span><i class="fas fa-map-pin"></i> Mudanoor K, Yadgir, Karnataka - 585216</span>
-  <span><i class="fab fa-linkedin"></i> linkedin.com/in/sachin-reddy-912b22383</span>
-  <span><i class="fab fa-github"></i> github.com/reddysachin532</span>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#eef2f7;
+padding:40px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:#fff;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+overflow:hidden;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 30px;
+background:#1d3557;
+color:#fff;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.buttons{
+display:flex;
+gap:10px;
+}
+
+button{
+padding:10px 18px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-size:15px;
+font-weight:600;
+transition:.3s;
+}
+
+.view{
+background:#fff;
+color:#1d3557;
+}
+
+.download{
+background:#28a745;
+color:#fff;
+}
+
+.print{
+background:#ff9800;
+color:#fff;
+}
+
+button:hover{
+transform:translateY(-2px);
+}
+
+.resume{
+padding:35px;
+}
+
+.name{
+text-align:center;
+margin-bottom:15px;
+}
+
+.name h1{
+font-size:34px;
+color:#1d3557;
+}
+
+.name p{
+color:#555;
+margin-top:5px;
+}
+
+.contact{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin:15px 0 30px;
+font-size:14px;
+}
+
+.section{
+margin-bottom:25px;
+}
+
+.section h2{
+border-left:5px solid #1d3557;
+padding-left:10px;
+margin-bottom:10px;
+color:#1d3557;
+}
+
+ul{
+padding-left:20px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#1d3557;
+color:#fff;
+padding:6px 14px;
+border-radius:20px;
+font-size:14px;
+}
+
+.project{
+margin-bottom:15px;
+}
+
+footer{
+text-align:center;
+margin-top:20px;
+color:#777;
+font-size:13px;
+}
+
+@media(max-width:700px){
+
+.header{
+justify-content:center;
+text-align:center;
+}
+
+.buttons{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.resume{
+padding:20px;
+}
+
+.contact{
+flex-direction:column;
+align-items:center;
+}
+}
+
+@media print{
+
+.header{
+display:none;
+}
+
+body{
+background:white;
+padding:0;
+}
+
+.card{
+box-shadow:none;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<div class="header">
+
+<h2><i class="fa-solid fa-file"></i> Resume</h2>
+
+<div class="buttons">
+
+<button class="view" onclick="document.getElementById('resume').scrollIntoView({behavior:'smooth'})">
+<i class="fa fa-eye"></i> View
+</button>
+
+<button class="print" onclick="window.print()">
+<i class="fa fa-print"></i> Print
+</button>
+
+<button class="download" onclick="downloadResume()">
+<i class="fa fa-download"></i> Download Resume
+</button>
+
 </div>
 
-<div class="resume-grid">
+</div>
 
-  <!-- Left Column -->
-  <div>
+<div class="resume" id="resume">
 
-    <div class="resume-section">
-      <h3><i class="fas fa-user-graduate"></i> Education</h3>
-      <ul>
-        <li>
-          <strong>B.E. Computer Science Engineering</strong><br>
-          (IoT, Cybersecurity & Blockchain)<br>
-          Alva's Institute of Engineering and Technology<br>
-          2023 – Present<br>
-          <strong>CGPA:</strong> 7.35
-        </li>
+<div class="name">
+<h1>Sachin Reddy</h1>
+<p>Computer Science Engineering Student (IoT, Cybersecurity & Blockchain)</p>
+</div>
 
-        <li style="margin-top:15px;">
-          <strong>PUC</strong><br>
-          Sanganabasava Residential PU College, Kavalagi<br>
-          2021 – 2023<br>
-          <strong>Percentage:</strong> 84%
-        </li>
+<div class="contact">
+<span><i class="fa fa-phone"></i> +91 7760706295</span>
+<span><i class="fa fa-envelope"></i> reddysachin532@gmail.com</span>
+<span><i class="fa fa-location-dot"></i> Yadgir, Karnataka</span>
+</div>
 
-        <li style="margin-top:15px;">
-          <strong>SSLC</strong><br>
-          Sri Sai Vidyanikethan Residential School, Shahapur
-        </li>
-      </ul>
-    </div>
+<div class="section">
+<h2>Professional Summary</h2>
+<p>
+Motivated Computer Science Engineering student specializing in
+IoT, Cybersecurity and Blockchain. Passionate about software
+development, cybersecurity, blockchain technologies and solving
+real-world problems.
+</p>
+</div>
 
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-code"></i> Technical Skills</h3>
+<div class="section">
+<h2>Education</h2>
 
-      <div class="skill-tags">
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">Java</span>
-        <span class="skill-tag">C</span>
-        <span class="skill-tag">HTML</span>
-        <span class="skill-tag">CSS</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">OpenCV</span>
-        <span class="skill-tag">MediaPipe</span>
-        <span class="skill-tag">PyAutoGUI</span>
-        <span class="skill-tag">IoT</span>
-        <span class="skill-tag">Cybersecurity</span>
-        <span class="skill-tag">Blockchain</span>
-        <span class="skill-tag">Computer Vision</span>
-      </div>
-    </div>
+<p><b>B.E. CSE (IoT, Cybersecurity & Blockchain)</b></p>
+<p>Alva's Institute of Engineering and Technology</p>
+<p>CGPA : 7.35</p>
+<br>
 
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-award"></i> Certifications</h3>
-      <ul>
-        <li>Introduction to Internet of Things (Elite) – NPTEL, IIT Kharagpur</li>
-        <li>IBM Applied DevOps Engineering – IBM SkillsBuild</li>
-        <li>Cyber Security Audits – Infosys Springboard</li>
-        <li>Computer Networks & Security – IBM</li>
-        <li>Agile Project Management – Coursera</li>
-      </ul>
-    </div>
-
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-language"></i> Languages</h3>
-      <ul>
-        <li>English</li>
-        <li>Kannada</li>
-        <li>Hindi</li>
-      </ul>
-    </div>
-
-  </div>
-
-  <!-- Right Column -->
-  <div>
-
-    <div class="resume-section">
-      <h3><i class="fas fa-user"></i> Professional Summary</h3>
-
-      <p>
-        Motivated Computer Science student specializing in IoT,
-        Cybersecurity and Blockchain. Proficient in Python, Java,
-        C, HTML, CSS and JavaScript with hands-on experience in
-        Computer Vision and Software Development. Passionate about
-        solving real-world problems and continuously learning
-        emerging technologies.
-      </p>
-    </div>
-
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-briefcase"></i> Projects</h3>
-
-      <div class="job-item">
-        <div class="job-header">
-          <span>Gesture Controlled Virtual Mouse</span>
-        </div>
-
-        <p>
-          Developed a real-time virtual mouse using hand gestures.
-          Enabled cursor movement, clicking and scrolling using
-          OpenCV, MediaPipe, NumPy and PyAutoGUI.
-        </p>
-      </div>
-
-      <div class="job-item">
-        <div class="job-header">
-          <span>BMI Calculator</span>
-        </div>
-
-        <p>
-          Designed a BMI calculator that categorizes users into
-          Underweight, Normal, Overweight and Obese categories using
-          Python, Java, C, HTML, CSS and JavaScript.
-        </p>
-      </div>
-
-    </div>
-
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-trophy"></i> Achievements</h3>
-
-      <ul>
-        <li>NPTEL Elite Certification in Introduction to Internet of Things (60%).</li>
-        <li>Participated in CYBERSIEGE 2026 - 24 Hour Capture The Flag (CTF).</li>
-      </ul>
-    </div>
-
-    <div class="resume-section" style="margin-top:30px;">
-      <h3><i class="fas fa-book"></i> Research Publication</h3>
-
-      <ul>
-        <li>
-          <strong>Smart Traffic Management and Control System Based on IoT</strong><br>
-          Published in the International Journal of Advance Research and Innovative Ideas in Education (IJARIIE).
-        </li>
-      </ul>
-    </div>
-
-  </div>
+<p><b>PUC</b></p>
+<p>84%</p>
 
 </div>
 
-<div style="margin-top:2rem;font-size:0.75rem;color:#8196b7;border-top:1px solid #e6edf8;padding-top:1rem;display:flex;justify-content:space-between;flex-wrap:wrap;">
-  <span><i class="fas fa-graduation-cap"></i> Computer Science Engineering Student</span>
-  <span><i class="fas fa-check-circle" style="color:#2a6df4;"></i> Open to Internship & Full-Time Opportunities</span>
+<div class="section">
+<h2>Skills</h2>
+
+<div class="skills">
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">C</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Git</div>
+<div class="skill">Cybersecurity</div>
+<div class="skill">Blockchain</div>
+<div class="skill">IoT</div>
 </div>
-<!-- ========== END RESUME CONTENT ========== -->
+
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+
+<div class="project">
+<b>Gesture Controlled Virtual Mouse</b>
+<p>Developed a virtual mouse using Python, OpenCV and MediaPipe.</p>
+</div>
+
+<div class="project">
+<b>BMI Calculator</b>
+<p>Developed a BMI calculator using Python, Java, HTML, CSS and JavaScript.</p>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Achievements</h2>
+
+<ul>
+<li>NPTEL Elite Certification - Introduction to IoT</li>
+<li>Participated in CYBERSIEGE 2026 CTF</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>Languages</h2>
+
+<ul>
+<li>English</li>
+<li>Kannada</li>
+<li>Hindi</li>
+</ul>
+
+</div>
+
+<footer>
+Open to Internship & Full-Time Opportunities
+</footer>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+function downloadResume(){
+
+const html = document.documentElement.outerHTML;
+
+const blob = new Blob([html],{
+type:"text/html"
+});
+
+const link=document.createElement("a");
+
+link.href=URL.createObjectURL(blob);
+
+link.download="Sachin_Reddy_Resume.html";
+
+link.click();
+
+URL.revokeObjectURL(link.href);
+
+}
+</script>
+
+</body>
+</html>
